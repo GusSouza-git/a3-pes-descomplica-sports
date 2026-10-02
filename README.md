@@ -2,95 +2,41 @@
 
 **Descomplica a sua partida.**
 
-Projeto acadêmico da avaliação A3 da disciplina **Projeto e Engenharia de Software**, voltado ao planejamento de um aplicativo de agendamento e gerenciamento de quadras esportivas.
-
-Este repositório reúne a documentação e acompanha a evolução do projeto. As funcionalidades descritas estão sendo especificadas e ainda não representam um aplicativo implementado.
-
-## Documentação
-
-| Documento | Finalidade | Arquivo |
-| --- | --- | --- |
-| Termo de Abertura | Apresenta o problema, os objetivos e a visão inicial do escopo. | [PDF](docs/termo-de-abertura.pdf) |
-| Documento de Requisitos | Detalha as regras de negócio, os requisitos funcionais e não funcionais, as prioridades e os critérios de aceite. | [PDF](docs/documento-de-requisitos.pdf) |
-
-O termo de abertura registra a proposta inicial. O documento de requisitos detalha as decisões atuais e os limites da primeira versão.
+Projeto acadêmico da A3 de **Projeto e Engenharia de Software**, voltado ao planejamento de um aplicativo mobile para busca e reserva de quadras esportivas.
 
 ## Sobre o projeto
 
-O Descomplica Sports propõe um aplicativo que conecta jogadores e proprietários de espaços esportivos, centralizando a busca por quadras, a consulta de horários e a realização de reservas.
+O Descomplica Sports conecta jogadores e proprietários de espaços esportivos. A proposta é facilitar a busca por quadras e horários disponíveis e a realização de reservas. Para os proprietários, oferece recursos para divulgar os espaços, organizar a agenda e acompanhar reservas e valores recebidos.
 
-## Problema
+As funcionalidades previstas incluem cadastro e acesso, busca de quadras, reserva e pagamento, consulta de reservas e gerenciamento dos espaços.
 
-Os jogadores enfrentam dificuldades para localizar quadras, consultar disponibilidade, avaliar a estrutura dos espaços e confirmar suas reservas.
+## Etapa atual
 
-Os proprietários precisam divulgar seus estabelecimentos, organizar a agenda, evitar conflitos de horários e acompanhar os pagamentos.
+O projeto está na fase de documentação e modelagem. O aplicativo ainda não está implementado.
 
-## Objetivo
+| Marco | Entrega | Situação |
+| --- | --- | --- |
+| Marco 0 | Termo de Abertura | Entregue |
+| Marco 1 | Documento de Requisitos | Entregue |
+| Marco 2 | Diagramas UML | Em andamento |
+| Marco 3 | Decisão Arquitetural | Não iniciado |
+| Marco 4 | Checkpoint: Repositório Git | Não iniciado |
+| Marco 5 | Documentação Final | Não iniciado |
+| Marco 6 | Entrega Final | Não iniciado |
 
-Facilitar a busca e a reserva de quadras esportivas, oferecendo aos jogadores uma experiência organizada e aos proprietários recursos para divulgar e administrar seus espaços.
+## Documentação
 
-## Público-alvo
+- [Termo de Abertura — PDF](docs/marco-0-termo-de-abertura/termo-de-abertura.pdf)
+- [Documento de Requisitos 0.1 — PDF](https://github.com/GusSouza-git/a3-pes-descomplica-sports/blob/marco-1-requisitos/docs/marco-1-requisitos/documento-de-requisitos.pdf)
+- [Documento de Requisitos 1.0 — PDF](https://github.com/GusSouza-git/a3-pes-descomplica-sports/blob/marco-1-requisitos/docs/marco-1-requisitos/Documento%20de%20Requisitos%201.0.pdf)
 
-- Pessoas que procuram quadras para praticar esportes.
-- Proprietários de espaços esportivos.
+Os detalhes do escopo, das regras de negócio, dos requisitos e dos critérios de aceite estão nos documentos.
 
-## Funcionalidades especificadas
+## Integrantes
 
-O resumo abaixo segue o documento de requisitos. As prioridades de cada função estão indicadas nos respectivos cartões.
-
-### Conta e acesso
-
-- Criação de contas de jogador e proprietário, com confirmação do e-mail.
-- Entrada por e-mail e senha, saída da conta e recuperação de senha.
-- Edição dos dados permitidos do perfil.
-- Canal para solicitações sobre dados pessoais.
-
-### Busca e reserva
-
-- Busca de quadras por nome, cidade ou bairro, sem uso de GPS na primeira versão.
-- Filtros por data, horário e esporte.
-- Consulta de endereço, fotos, esportes, períodos disponíveis, preços, contato e avaliações disponíveis.
-- Reserva temporária do horário por 10 minutos, com contador visível.
-- Pagamento por Pix ou cartão de crédito.
-- Consulta das próprias reservas e da situação dos pagamentos.
-- Avaliação da quadra após a conclusão da reserva, como recurso de prioridade *could*.
-
-### Gestão do proprietário
-
-- Cadastro do espaço e das quadras, com períodos reserváveis e preços.
-- Atualização das informações das quadras.
-- Consulta da agenda e bloqueio ou liberação de períodos sem reservas ativas.
-- Acompanhamento dos pagamentos, das devoluções previstas e do total recebido.
-
-## Regras centrais da reserva
-
-- O primeiro pedido aceito e registrado pelo sistema obtém a reserva temporária do período.
-- O horário fica indisponível para outros jogadores durante os 10 minutos da reserva temporária.
-- A aprovação do pagamento deve ser recebida antes da expiração para confirmar a reserva.
-- Uma aprovação recebida no instante da expiração ou depois dele não confirma a reserva e gera uma solicitação de devolução integral.
-- Uma reserva confirmada passa a concluída ao atingir o horário de término.
-
-## Qualidade e operação
-
-Os requisitos não funcionais tratam de desempenho, segurança, usabilidade, disponibilidade, compatibilidade com celulares Android e iOS, privacidade, auditoria, backup e recuperação, além de acessibilidade.
-
-As metas numéricas registradas no documento são propostas de projeto a validar antes de uma implantação.
-
-## Limites da primeira versão
-
-O documento de requisitos mantém fora da primeira versão o bate-papo, o cancelamento e a remarcação pelo aplicativo, a formação de times e a confirmação de presença do grupo.
-
-O termo de abertura também apresenta possíveis evoluções, como ranking, estatísticas dos jogadores, sistema de amigos e torneios.
-
-### Pontos de alinhamento entre os documentos
-
-Login com Google e Apple, favoritos, formas de pagamento salvas e preferências de notificações aparecem na visão inicial do termo de abertura, mas ainda não têm requisitos próprios na especificação atual. Esses itens precisam ter seu detalhamento e sua prioridade definidos nas próximas revisões.
-
-## Próximas etapas
-
-- Elaborar os diagramas UML com base nos requisitos.
-- Detalhar as telas e os fluxos de navegação.
-- Preparar a apresentação do projeto.
-- Desenvolver, ao final do planejamento, um demonstrativo navegável com dados e pagamentos simulados.
-
-O desenvolvimento em código não é uma exigência desta etapa acadêmica. O demonstrativo está planejado como apoio à apresentação.
+- Guilherme Eduardo Silva
+- Gustavo de Souza
+- Cássio Martins Ceribelli
+- Ryan Guilherme Almeida de Camargo
+- Kauan Martins Silva
+- Ícaro Henrique Timóteo Severino
