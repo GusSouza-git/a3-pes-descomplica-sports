@@ -19,6 +19,10 @@ O projeto está na fase de documentação e modelagem. O aplicativo ainda não e
 | Marco 0 | Termo de Abertura | Entregue |
 | Marco 1 | Documento de Requisitos | Entregue |
 | Marco 2 | Diagramas UML | Em andamento |
+| Marco 3 | Decisão Arquitetural | Não iniciado |
+| Marco 4 | Checkpoint: Repositório Git | Não iniciado |
+| Marco 5 | Documentação Final | Não iniciado |
+| Marco 6 | Entrega Final | Não iniciado |
 
 ## Documentação
 
