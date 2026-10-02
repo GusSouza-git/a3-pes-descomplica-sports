@@ -26,7 +26,7 @@ O projeto está na fase de documentação e modelagem. O aplicativo ainda não e
 
 ## Documentação
 
-- [Termo de Abertura — PDF](docs/termo-de-abertura.pdf)
+- [Termo de Abertura — PDF](docs/marco-0-termo-de-abertura/termo-de-abertura.pdf)
 - [Documento de Requisitos 0.1 — PDF](https://github.com/GusSouza-git/a3-pes-descomplica-sports/blob/marco-1-requisitos/docs/marco-1-requisitos/documento-de-requisitos.pdf)
 - [Documento de Requisitos 1.0 — PDF](https://github.com/GusSouza-git/a3-pes-descomplica-sports/blob/marco-1-requisitos/docs/marco-1-requisitos/Documento%20de%20Requisitos%201.0.pdf)
 
