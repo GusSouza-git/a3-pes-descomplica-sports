@@ -11,7 +11,8 @@ Este repositório reúne a documentação e acompanha a evolução do projeto. A
 | Documento | Finalidade | Arquivo |
 | --- | --- | --- |
 | Termo de Abertura | Apresenta o problema, os objetivos e a visão inicial do escopo. | [PDF](docs/termo-de-abertura.pdf) |
-| Documento de Requisitos | Detalha as regras de negócio, os requisitos funcionais e não funcionais, as prioridades e os critérios de aceite. | [PDF](docs/marco-1-requisitos/documento-de-requisitos.pdf) |
+| Documento de Requisitos 0.1 | Entrega anterior, preservada para consulta e acompanhamento da evolução do projeto. | [PDF](docs/marco-1-requisitos/documento-de-requisitos.pdf) |
+| Documento de Requisitos 1.0 | Entrega revisada, com regras de negócio, requisitos funcionais e não funcionais e critérios de aceite. | [PDF](docs/marco-1-requisitos/Documento%20de%20Requisitos%201.0.pdf) |
 
 O termo de abertura registra a proposta inicial. O documento de requisitos detalha as decisões atuais e os limites da primeira versão.
 
